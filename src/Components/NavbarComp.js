@@ -9,9 +9,6 @@ import {
 } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import Home from "./Home";
-
-import About from "./About";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class NavbarComp extends Component {

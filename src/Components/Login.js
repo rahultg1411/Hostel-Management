@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
 export default class Login extends Component {
   render() {
     return (
@@ -51,14 +51,12 @@ export default class Login extends Component {
                             className="form-control rounded-pill border-0 shadow-sm px-4 text-primary"
                           />
                         </div>
-
-                        <button
-                          type="submit"
+                        <Link
+                          to="/dashboard"
                           className="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm"
-                          onclick="window.location.href ='/dashboard.html'"
                         >
                           Sign in
-                        </button>
+                        </Link>
                       </form>
                     </div>
                   </div>
